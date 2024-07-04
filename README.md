@@ -3,7 +3,7 @@
 Our project leverages EEG (electroencephalography) technology and powerful large language models (LLMs) to decode brain signals into text and implement this in real-time. Our goal is to provide a communication tool for individuals with severe communication impairments.
 
 ## Research Paper Implementation 
-We have implemented a research paper on Semantic-aware Contrastive Learning (C-SCL) for EEG-to-text decoding. Due to the large size of the model weights, they are available via a [Google Drive link](https://drive.google.com/drive/folders/1Pep7mpqO65n41xJj0R9teEq9ex8wlekE?usp=drive_link) instead of directly uploading here.
+We have implemented a research paper on Semantic-aware Contrastive Learning (C-SCL) for EEG-to-text decoding. Due to the large size of the model weights, they are available via a [Google Drive link](https://drive.google.com/drive/folders/1Pep7mpqO65n41xJj0R9teEq9ex8wlekE?usp=drive_link) with all the codes for preprocessing and training.
 
 ### Approach
 Our approach involves using a preencoder trained with C-SCL to transform EEG signals into a representation that can be effectively processed by a pretrained BART model to generate natural language text.
